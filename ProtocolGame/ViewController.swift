@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+//        Super Solop
         super.viewDidLoad()
         func playGame() {
             var cowboy = Cowboy(name: "John Marlboro", bullets: Int.random(in: 0...6), life: Int.random(in: 3...5))
